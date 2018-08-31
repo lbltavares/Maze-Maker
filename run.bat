@@ -1,0 +1,1 @@
+gcc src/*.c -I./include/ -I./libs/SDL2/include/ -L./libs/SDL2/lib/ -lmingw32 -lSDL2main -lSDL2 -o bin/mr.exe && cd bin && mr.exe 
